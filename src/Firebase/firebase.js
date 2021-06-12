@@ -21,5 +21,8 @@ class Firebase {
         app.initializeApp(config)
     }
 }
+const db = firebase.firestore();
+
+export { db };
 
 export default Firebase;

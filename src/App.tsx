@@ -1,18 +1,13 @@
 import React from 'react';
+import Form  from './Components/Form';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello Geekeur!
-        </p>
-
-      </header>
+      <Form />
     </div>
   );
-}
-
+};
 export default App;
