@@ -41,29 +41,30 @@ export const Form = () => {
   
 
     return (
+      <div id="container">
         <form className="form" onSubmit={handleSubmit}>
-            <h1>Contact form </h1>
+            <h1>ADD A CONTACT </h1>
 
             <label>FirstName</label>
-            <input placeholder="FirstName" 
+            <input type="texte" placeholder="Firstname" 
             value={FirstName}
             onChange={(e) => setFirstName(e.target.value)}
             />
 
             <label>LastName</label>
-            <input placeholder="LastName" 
+            <input type="texte" placeholder="Lastname" 
             value={LastName}
             onChange={(e) => setLastName(e.target.value)}
             />
 
             <label>Email</label>
-            <input placeholder="Email" 
+            <input type="texte" placeholder="Email" 
             value={Email}
             onChange={(e) => setEmail(e.target.value)}
             />
 
             <label>Phone</label>
-            <input placeholder="Phone" 
+            <input type="tel" placeholder="Phone" 
             value={Phone}
             onChange={(e) => setPhone(e.target.value)}
             />
@@ -78,6 +79,7 @@ export const Form = () => {
             >Submit</button>
 
         </form>
+        </div>
     );
 };
 
