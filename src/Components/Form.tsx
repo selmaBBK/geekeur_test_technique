@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
-import {db} from '../Firebase/firebase';
+import { db } from '../Firebase';
 
 export const Form = () => {
     const [FirstName, setFirstName] = useState("");
