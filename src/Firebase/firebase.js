@@ -16,13 +16,11 @@ const config = {
 * Initialize Firebase
  */
 
-class Firebase {
-    constructor() {
-        app.initializeApp(config)
-    }
-}
-const db = firebase.firestore();
+
+app.initializeApp(config);
+    
+const db = app.firestore();
 
 export { db };
-
 export default Firebase;
+
