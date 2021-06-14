@@ -7,7 +7,7 @@ function App() {
   return ( 
     <div className="App">
       <Form />
-        <div id="contacts-list" >
+        <div className= "wrapper" id="contacts-list" >
         </div>
     </div>
   );

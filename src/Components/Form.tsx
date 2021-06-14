@@ -43,7 +43,7 @@ export const Form = () => {
     return (
       <div id="container">
         <form className="form" onSubmit={handleSubmit}>
-            <h1>ADD A CONTACT </h1>
+            <h1>ADD A CONTACT 📲 </h1>
 
             <label>FirstName</label>
             <input type="texte" placeholder="Firstname" 
@@ -57,26 +57,26 @@ export const Form = () => {
             onChange={(e) => setLastName(e.target.value)}
             />
 
-            <label>Email</label>
+            <label>Email 📩</label>
             <input type="texte" placeholder="Email" 
             value={Email}
             onChange={(e) => setEmail(e.target.value)}
             />
 
-            <label>Phone</label>
+            <label>Phone 📞</label>
             <input type="tel" placeholder="Phone" 
             value={Phone}
             onChange={(e) => setPhone(e.target.value)}
             />
 
-            <label>Message</label>
-            <textarea placeholder="Message"
+            <label>Message 📝</label>
+            <textarea placeholder="Message "
             value={Message}
             onChange={(e) => setMessage(e.target.value)}></textarea>
 
             <button type="submit"
             style={{ background: loader ? "#ccc" : " rgb(2, 2, 110)" }}
-            >Submit</button>
+            >Submit </button>
 
         </form>
         </div>
