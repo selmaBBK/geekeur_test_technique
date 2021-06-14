@@ -1,16 +1,16 @@
 import React from 'react';
 import Form  from './Components/Form';
-import { db } from './Firebase';
+import "./Components/Contact";
 import './App.css';
 
 function App() {
   return ( 
     <div className="App">
       <Form />
-      <div>
-        
-      </div>
+        <div id="contacts-list" >
+        </div>
     </div>
   );
 };
+
 export default App;
